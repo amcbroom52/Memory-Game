@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Memory Game!</title>
+  <link rel="stylesheet" href="memory-game.css" />
+</head>
+
+<body>
+
+  <div class="game-info">
+    <div class="score">
+      <h4>Best: <span id="best-score">N/A</span></h4>
+      <h2>Score: <span id="score">0</span></h2>
+    </div>
+    <div class="title-start">
+      <h1>Memory Game!</h1>
+      <button class="start-button" onclick="startGame()">Start</button>
+      <select id="difficulty" class="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+    </div>
+    <div class="time-text">
+      <h4>Best: <span id="best-time">N/A</span></h4>
+      <h2>Time: <span class="time-amount" id="time">00:00</span></h2>
+    </div>
+  </div>
+
+  <div id="game" class="gameboard"></div>
+
+  <script src="memory-game.js"></script>
+
+</body>
+
+</html>

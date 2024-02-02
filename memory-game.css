@@ -1,0 +1,132 @@
+/* you can add to or change this. */
+body {
+  margin: 0px;
+}
+
+.game-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: gray;
+  align-items: center;
+}
+
+.score {
+  padding-left: 10px;
+}
+
+.title-start {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.difficulty {
+  margin-left: 30px;
+  height: 45px;
+  width: 90px;
+  font-size: 15px;
+  /* text-align: center; */
+  background-color: black;
+  color: white;
+  /* border-color: rgba(109, 109, 215); */
+  border-width: 3px;
+  border-radius: 10px;
+}
+
+.difficulty:hover {
+  cursor: pointer;
+}
+
+
+.time-text {
+  padding-right: 10px;
+  text-align: right;
+}
+
+.start-button {
+  height: 60px;
+  width: 150px;
+  margin-left: 30px;
+  border-radius: 10px;
+  background-color: rgba(109, 109, 215);
+  font-size: 30px;
+}
+
+.start-button:hover {
+  cursor: pointer;
+}
+
+.gameboard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.medium {
+  border: 1px solid black;
+  width: 98px;
+  height: 135px;
+  margin: 20px;
+  margin-right: 90px;
+  margin-left: 90px;
+  margin-bottom: 12px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.hard {
+  border: 1px solid black;
+  width: 83px;
+  height: 120px;
+  margin: 20px;
+  margin-right: 35px;
+  margin-left: 35px;
+  margin-bottom: 25px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.easy {
+  border: 1px solid black;
+  width: 166px;
+  height: 240px;
+  margin: 20px;
+  margin-right: 70px;
+  margin-left: 70px;
+  margin-top: 40px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+#game div:hover {
+  cursor: pointer;
+}
+
+.card-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+  font-size: 80px;
+}
+
+.green {
+  background-color: green;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.purple {
+  background-color: purple;
+}
